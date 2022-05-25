@@ -12,14 +12,14 @@ export default function Hero() {
               Hello Everyone 👋, I'm
               <span className="block font-bold text-dark text-4xl mt-1 lg:text-5xl">Sofyan Egi Lesmana</span>
             </h1>
-            <h2 className="font-medium text-slate-500 text-lg mb-5 lg:text-2xl">
+            <h2 className="font-medium text-secondary text-lg mb-5 lg:text-2xl">
               Student at
               <span className="text-dark"> Universitas Pasundan</span>
             </h2>
-            <p className="font-medium text-slate-400 mb-10 leading-relaxed text-justify">
+            <p className="font-medium text-secondary mb-10 leading-relaxed text-justify">
               A Learner to become
               <span className="text-dark font-bold"> Junior Software Engineer </span>
-              who loves to build and share projects about web. I've Enjoyed JavaScript for main language to creating a project
+              who loves to build and share projects about web. I've Enjoyed JavaScript for main language to creating a project.
             </p>
 
             <a
