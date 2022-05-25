@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function About() {
   return (
-    <section id="about" className="pt-36 pb-3">
+    <section id="about" className="pt-10 pb-3">
       <div className="container">
         <div className="flex flex-wrap">
           <div className="w-full px-4 mb-10 lg:w-1/2">
