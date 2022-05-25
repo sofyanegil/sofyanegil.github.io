@@ -1,9 +1,11 @@
 /* eslint-disable react/react-in-jsx-scope */
 
+import Hero from './components/Hero';
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <Hero />
     </div>
   );
 }
