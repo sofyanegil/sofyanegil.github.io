@@ -30,28 +30,28 @@ export default function About() {
       <section id="contact" className="pb-3">
         <div className="container">
           <h3 className="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">Kontak dan Media Sosial</h3>
-          <div className="flex flex-row">
-            <li className="list-none font-medium text-base text-secondary mb-3 lg:text-large mx-2">
+          <div className="lg:flex sm:block">
+            <li className="list-none m font-medium text-base text-secondary mb-8 lg:text-large mx-2">
               <a href="mailto:contact.sofyan@gmail.com" className="bg-primary p-3 text-white rounded-lg" target="_blank" rel="noopener noreferrer">
-                contact.sofyan@gmail.com
+                Email
               </a>
             </li>
-            <li className="list-none font-medium text-base text-secondary mb-3 lg:text-large mx-2">
+            <li className="list-none m font-medium text-base text-secondary mb-8 lg:text-large mx-2">
               <a href="https://wa.me/+62895330087325" className="bg-primary p-3 text-white rounded-lg" target="_blank" rel="noopener noreferrer">
-                0895-3300-87325
+                Whatsapp
               </a>
             </li>
-            <li className="list-none font-medium text-base text-secondary mb-3 lg:text-large mx-2">
+            <li className="list-none m font-medium text-base text-secondary mb-8 lg:text-large mx-2">
               <a href="https://www.instagram.com/sofyanegi/" className="bg-primary p-3 text-white rounded-lg" target="_blank" rel="noopener noreferrer">
                 Instagram
               </a>
             </li>
-            <li className="list-none font-medium text-base text-secondary mb-3 lg:text-large mx-2">
+            <li className="list-none m font-medium text-base text-secondary mb-8 lg:text-large mx-2">
               <a href="https://www.linkedin.com/in/sofyanegi/" className="bg-primary p-3 text-white rounded-lg" target="_blank" rel="noopener noreferrer">
                 Linked.in
               </a>
             </li>
-            <li className="list-none font-medium text-base text-secondary mb-3 lg:text-large mx-2">
+            <li className="list-none m font-medium text-base text-secondary mb-8 lg:text-large mx-2">
               <a href="https://www.github.com/sofyanegil" className="bg-primary p-3 text-white rounded-lg" target="_blank" rel="noopener noreferrer">
                 Github
               </a>
