@@ -42,11 +42,6 @@ export default function Header() {
             <nav id="nav-menu" className="absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full hidden lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
               <ul className="block transition duration-500 lg:flex">
                 <li className="group">
-                  <a href="#home" className="nav-link">
-                    Home
-                  </a>
-                </li>
-                <li className="group">
                   <a href="#about" className="nav-link">
                     Tentang Saya
                   </a>
