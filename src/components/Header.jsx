@@ -48,17 +48,12 @@ export default function Header() {
                 </li>
                 <li className="group">
                   <a href="#about" className="nav-link">
-                    About Me
-                  </a>
-                </li>
-                <li className="group">
-                  <a href="#portofolio" className="nav-link">
-                    Portofolio
+                    Tentang Saya
                   </a>
                 </li>
                 <li className="group">
                   <a href="#contact" className="nav-link">
-                    Contact
+                    Kontak
                   </a>
                 </li>
               </ul>

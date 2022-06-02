@@ -9,30 +9,21 @@ export default function Hero() {
         <div className="flex flex-wrap">
           <div className="w-full self-center px-4 lg:w-1/2">
             <h1 className="text-base font-semibold text-primary md:text-xl lg:text-2xl">
-              Hello Everyone 👋, I'm
+              Halo Semua 👋, Saya
               <span className="block font-bold text-dark text-4xl mt-1 lg:text-5xl">Sofyan Egi Lesmana</span>
             </h1>
             <h2 className="font-medium text-secondary text-lg mb-5 lg:text-2xl">
-              Student at
+              Mahasiswa
               <span className="text-dark"> Universitas Pasundan</span>
             </h2>
             <p className="font-medium text-secondary mb-10 leading-relaxed text-justify">
-              A Learner to become
-              <span className="text-dark font-bold"> Junior Software Engineer </span>
-              who loves to build and share projects about web. I've Enjoyed JavaScript for main language to creating a project.
+              Mengambil program studi
+              <span className="text-dark font-bold"> Teknik Informatika. </span>
+              Saat ini sedang mengikuti kegiatan Kampus Merdeka Studi Independen Bersertifikat Dicoding Batch 2 dengan Learning Path FrontEnd dan BackEnd Web.
             </p>
-
-            <a
-              href="https://www.linkedin.com/in/sofyanegi/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
-            >
-              Contact Me
-            </a>
           </div>
           <div className="w-full self-end px-4 lg:w-1/2">
-            <div className="relative mt-10 LG:mt-9 lg:right-0">
+            <div className="relative mt-10 lg:mt-9 lg:right-0">
               <img width={400} height={400} src="/profilePic.png" alt="Sofyan Egi" className="max-w-full mx-auto" />
               <span className="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 ">
                 <svg width={400} height={375} viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">

@@ -3,38 +3,62 @@ import React from 'react';
 
 export default function About() {
   return (
-    <section id="about" className="pt-10 pb-3">
-      <div className="container">
-        <div className="flex flex-wrap">
-          <div className="w-full px-4 mb-10 lg:w-1/2">
-            <h4 className="font-bold uppercase text-primary text-lg mb-3">About me</h4>
-            <h2 className="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">Long life learner</h2>
-            <p className="font-medium text-base text-secondary lg:text-large text-justify">
-              My name is Sofyan Egi Lesmana, currently studying at Pasundan University, majoring in informatics engineering. I have been learning web development for two years, I have experience in Web Development, both Front-End, and
-              Back-end. I believe that I have the characteristics and skills that the position needs and deserves. On the Front end, I have skills in HTML, CSS, Sass, Javascript, and the React Js Framework.For Back End, I have skills in
-              Java, Node JS, PHP, and Laravel Framework.
-            </p>
-          </div>
-          <div className="w-full px-4 lg:w-1/2">
-            <h3 className="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">Lets connect!</h3>
-            <p className="font-medium text-base text-secondary mb-6 lg:text-large">Find me in apps below! </p>
-            <div className="flex items-center">
-              {/* Linkedin */}
-              <a href="https://www.linkedin.com/in/sofyanegi/" className="w-12 h-12 mr-3 rounded-full flex justify-center items-center border border-slate-400 hover:bg-primary hover:text-white" target="_blank" rel="noreferrer noopener">
-                <img src="/icons/linkedin.svg" alt="" />
-              </a>
-              {/* Instagram */}
-              <a href="https://www.instagram.com/sofyanegi/" className="w-12 h-12 mr-3 rounded-full flex justify-center items-center border border-slate-400 hover:bg-primary hover:text-white" target="_blank" rel="noreferrer noopener">
-                <img src="/icons/instagram.svg" alt="" />
-              </a>
-              {/* Github */}
-              <a href="https://www.instagram.com/sofyanegi/" className="w-12 h-12 mr-3 rounded-full flex justify-center items-center border border-slate-400 hover:bg-primary hover:text-white" target="_blank" rel="noreferrer noopener">
-                <img src="/icons/github.svg" alt="" />
-              </a>
+    <>
+      <section id="about" className="pt-10 pb-3">
+        <div className="container">
+          <div className="flex flex-wrap">
+            <div className="w-full px-4 mb-10 lg:w-1/2">
+              <h4 className="font-bold uppercase text-primary text-lg mb-3">Tentang Saya</h4>
+              <h2 className="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">Biodata</h2>
+              <p className="font-medium text-base text-dark lg:text-large text-justify">
+                Saya Sofyan Egi Lesmana, lahir di Cilacap 20 tahun lalu dan sekarang menetap di Bandung. Saya anak tunggal, saat ini sedang kuliah di Universitas Pasundan dengan jurusan Teknik Informatika.
+              </p>
+              <p className="font-medium text-base text-dark lg:text-large text-justify mt-2">
+                Pilihan studi yang di ambil karena ketertarikan dalam bidang teknologi, dan bercita cita untuk bisa menjadi bagian industri terutama di bidang IT. Saat ini saya sedang mempelajari HTML, CSS, Javascript, dll.
+              </p>
+            </div>
+            <div className="w-full px-4 lg:w-1/2">
+              <h3 className="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">Pendidikan</h3>
+              <li className="font-medium text-base text-secondary mb-3 lg:text-large">UNIVERSITAS PASUNDAN, 2019 - Sekarang </li>
+              <li className="font-medium text-base text-secondary mb-3 lg:text-large">SMAN 1 MARGAASIH, 2016 - 2019 </li>
+              <li className="font-medium text-base text-secondary mb-3 lg:text-large">SMPN 2 MARGAHAYU, 2013 - 2016 </li>
+              <li className="font-medium text-base text-secondary mb-3 lg:text-large">SDN MARGAHAYU 13, 2007 - 2013 </li>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section id="contact" className="pb-3">
+        <div className="container">
+          <h3 className="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">Kontak dan Media Sosial</h3>
+          <div className="flex flex-row">
+            <li className="list-none font-medium text-base text-secondary mb-3 lg:text-large mx-2">
+              <a href="mailto:contact.sofyan@gmail.com" className="bg-primary p-3 text-white rounded-lg" target="_blank" rel="noopener noreferrer">
+                contact.sofyan@gmail.com
+              </a>
+            </li>
+            <li className="list-none font-medium text-base text-secondary mb-3 lg:text-large mx-2">
+              <a href="https://wa.me/+62895330087325" className="bg-primary p-3 text-white rounded-lg" target="_blank" rel="noopener noreferrer">
+                0895-3300-87325
+              </a>
+            </li>
+            <li className="list-none font-medium text-base text-secondary mb-3 lg:text-large mx-2">
+              <a href="https://www.instagram.com/sofyanegi/" className="bg-primary p-3 text-white rounded-lg" target="_blank" rel="noopener noreferrer">
+                Instagram
+              </a>
+            </li>
+            <li className="list-none font-medium text-base text-secondary mb-3 lg:text-large mx-2">
+              <a href="https://www.linkedin.com/in/sofyanegi/" className="bg-primary p-3 text-white rounded-lg" target="_blank" rel="noopener noreferrer">
+                Linked.in
+              </a>
+            </li>
+            <li className="list-none font-medium text-base text-secondary mb-3 lg:text-large mx-2">
+              <a href="https://www.github.com/sofyanegil" className="bg-primary p-3 text-white rounded-lg" target="_blank" rel="noopener noreferrer">
+                Github
+              </a>
+            </li>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
